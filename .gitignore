@@ -1,0 +1,35 @@
+# Data — raw and processed data never goes to GitHub
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.bak
+
+# Data — raw and processed data never goes to GitHub
+data/raw/*
+data/processed/*
+data/output/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+!dashboard/.gitkeep
