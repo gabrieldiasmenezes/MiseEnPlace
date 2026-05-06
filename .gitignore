@@ -26,10 +26,10 @@ Thumbs.db
 # Data — raw and processed data never goes to GitHub
 data/raw/*
 data/processed/*
-data/output/*
+data/final/*
 
 # Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-!data/output/.gitkeep
+!data/final/.gitkeep
 !dashboard/.gitkeep
